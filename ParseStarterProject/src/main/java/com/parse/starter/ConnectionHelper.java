@@ -10,10 +10,10 @@ import java.sql.SQLException;
 
 public class ConnectionHelper {
 
-    String ip = "192.168.100.10:1433";              //adresa ip + portul implicit pentru serverul SQL
-    String db = "autotransport";                    //numele bazei de date
-    String DBUserNameStr = "alexandra";             //numele de utilizator pentru serverul SQL
-    String DBPasswordStr = "anaaremere";            //parola pentru serverul SQL
+    String ip = "";              //adresa ip + portul implicit pentru serverul SQL
+    String db = "";                    //numele bazei de date
+    String DBUserNameStr = "";             //numele de utilizator pentru serverul SQL
+    String DBPasswordStr = "";            //parola pentru serverul SQL
 
     @SuppressLint("NewApi")
     public Connection ConnectionMethod () {
