@@ -1,4 +1,5 @@
 # autotransport
+An Android Studio application for bus rides ticket reservations developed in Java with connection to MS SQL Server database.
 
 
 This is a demo of an Android application for bus rides ticket reservations, called AutoTransport:
