@@ -1,0 +1,4 @@
+#Mon Jun 17 18:11:06 EEST 2019
+base.0=D\:\\AndroidStudioProjects\\parseproject\\ParseStarterProject\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

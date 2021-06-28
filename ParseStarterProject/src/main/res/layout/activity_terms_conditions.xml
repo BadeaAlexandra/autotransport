@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsConditionsActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F6F3F3"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="186dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/ticket"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Termeni si conditii"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="30dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:text="Termeni si Conditii introductivi"
+        android:textSize="20sp"
+        android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight=".3"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Acesti termeni si conditii, care pot fi amendati din cand in cand, se aplica direct sau indirect (prin distribuitori) tuturor serviciilor noastre disponibile online, prin e-mail sau telefon. Prin accesarea, cautarea si utilizarea aplicatiei noastre pe orice platforma si/sau prin efectuarea unei rezervari, confirmati si sunteti de acord ca ati citit, inteles si ati fost de acord cu toti termenii si conditiile precizate mai jos (inclusiv declaratia de confidentialitate)."
+            android:textSize="18sp"
+            android:textColor="#000000"/>
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Scopul si natura Serviciului nostru"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="640dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight=".3"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Acesti termeni si conditii, care pot fi amendati din cand in cand, se aplica direct sau indirect (prin distribuitori) tuturor serviciilor noastre disponibile online, prin e-mail sau telefon. Prin accesarea, cautarea si utilizarea aplicatiei noastre pe orice platforma si/sau prin efectuarea unei rezervari, confirmati si sunteti de acord ca ati citit, inteles si ati fost de acord cu toti termenii si conditiile precizate mai jos (inclusiv declaratia de confidentialitate).\n
+Din momentul in care faceti rezervarea, noi actionam numai ca un intermediar intre dumneavoastra si compania de transport, transmitand detaliile rezervarii dumneavoastra companiei de transport si trimitandu-va un e-mail de confirmare pentru si in numele companiei de transport. AutoTransport nu (re)vinde, inchiriaza sau ofera niciun produs sau serviciu (de calatorie).\n
+Cand va oferim servicii, informatia pe care o transmitem este bazata pe informatiile pe care companiile de transport ni le transmit noua. Ca atare, companiile de transport care isi promoveaza ofertele pe platforma primesc acces la sistemele noastre, fiind exclusiv responsabili sa actualizeze informatiile referitoare la preturi/taxe, disponibilitate, politici si conditii si alte informatii relevante care sunt publicate pe platforma noastra. Nu garantam ca toate informatiile sunt exacte, complete sau corecte, nici nu putem fi facuti raspunzatori pentru orice eroare (incluzand erori tipografice sau evidente), orice intreruperi (fie ca se datoreaza oricarei defectari (temporare si/sau partiale), reparatii, actualizari sau intretineri ale Platformei noastre sau altele), pentru informatii inexacte, inselatoare sau neadevarate, sau netransmiterea informatiilor. \n
+Fiecare companie de transport este responsabila tot timpul pentru exactitatea, integritatea si corectitudinea informatiilor (descriptive) (incluzand preturi/taxe, politici și conditii si disponibilitate) prezentate pe platforma noastra. Platforma noastra nu constituie si nu ar trebui sa fie privita ca o recomandare sau sustinere a calitatii, nivelului serviciilor sau clasificarea oricarei companii de transport (sau a facilitatilor sale), daca nu este specificat altfel.\n
+Serviciile noastre sunt disponibile exclusiv pentru utilizarea personala si non-comerciala. De aceea, nu aveti permisiunea de a revinde, folosi, copia, monitoriza, afisa, salva sau reproduce orice continut sau informatie, software, rezervari, bilete, produse sau servicii disponibile pe platforma noastra pentru orice activitate sau scop comercial sau competitiv."
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2130dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Card de credit sau transfer bancar"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2160dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight=".3"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Daca este aplicabil si disponibil, anumite companii ofera oportunitatea ca rezervarile sa fie platite (integral sau partial si conform politicii de plata a companiei) companiei de transport in timpul procesului de rezervare a calatoriei, prin modalitati securizate de plata online (in limita suportata si oferita de banca dumneavoastra). Pentru anumite servicii, AutoTransport faciliteaza (prin procesatori terti de plati) plata produselor si a serviciilor relevante (de ex. serviciu de facilitare de plati) pentru si in numele companiei de transport (AutoTransport nu actioneaza si nu opereaza niciodata ca un comerciant inregistrat). \n
+Plata este procesata in mod securizat direct de pe cardul dumneavoastra de credit/debit sau din contul bancar catre contul bancar al furnizorului de cazare printr-un procesator tert de plati. Orice plata facilitata de noi si transferata catre comapnia de transport va constitui, in fiecare caz, o plata (in parte) a pretului rezervarii de catre dumneavoastra pentru serviciul respectiv pentru decontarea finala (bevrijdende betaling) a unui astfel de pret (partial) datorat si de platit, si nu puteti recupera aceasta suma platita. \n
+In cazul fraudarii sau a utilizarii neautorizate a cardului dumneavoastra de credit de catre terte parti, cele mai multe banci si companii de credit vor suporta riscul si vor acoperi pagubele rezultand dintr-o asemenea frauda sau folosire gresita, care pot fi subiectul unei sume deductibile (stabilita de obicei la 50 EUR sau echivalentul in moneda dumneavoastra locala). In eventualitatea ca banca sau compania dumneavoastra de credit incaseaza suma deductibila de la dumneavoastra din cauza unei tranzactii neautorizate, rezultand dintr-o rezervare facuta pe Platforma noastra, va vom plati aceasta suma deductibila, pana la maximum 50 EUR (sau echivalentul in moneda dumneavoastra locala). \n
+Pentru a va despagubi, va rugam sa va asigurati ca raportati aceasta frauda furnizorului dumneavoastra de card de credit (in conformitate cu regulile si procedurile sale de raportare) si ca ne contactati imediat prin e-mail. Aceasta despagubire se aplica numai rezervarilor facute cu cardul de credit folosind serverul securizat al AutoTransport si in cazul utilizarii neautorizate a cardului dumneavoastra de credit, rezultata ca urmare a greselii si neglijentei noastre, si nu rezultat ca urmare a unei greseli proprii in timp ce utilizati serverul securizat."
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3580dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:text="Plata in avans, anulare, neprezentare si detalii importante"
+            android:textSize="20sp"
+            android:textColor="#000000" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="3640dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight=".3"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="Efectuand o Rezervare a unei calatorii la o companie de transport, acceptati si sunteti de acord cu politica de anulare si neprezentare a acelei companii si cu orice termeni si conditii suplimentari (de livrare) ale companiei de transport (inclusiv Detaliile importante facute disponibile pe platforma noastra si informatiile importante relevante ale companiei de transport). Politica generala de anulare si neprezentare a fiecarei companii de transport este disponibila pe platforma noastra, pe pagina de informatii a companiei de transport, pe durata procedurii de rezervare si in e-mailul de confirmare sau bilet. Va rugam sa retineti ca anumite preturi sau oferte speciale nu sunt eligibile pentru anulare sau modificare. \n
+Taxele aplicabile de turism sau municipale pot fi incasate de catre compania de transport in eventualitatea neprezentarii sau a anularii negratuite. Va rugam sa verificati cu atentie detaliile rezervarii produsului sau serviciului pe care l-ati ales pentru a vedea daca exista asemenea conditii, inainte de efectuarea rezervarii. Va rugam sa retineti ca o rezervare care necesita un depozit sau o plata (integrala sau partiala) in avans poate fi anulata (fara notificare prealabila sau standard sau fara avertisment) daca si in masura in care suma (sumele) relevanta (ramasa) nu poate fi colectata integral la data platii in conformitate cu politica relevanta de plata a companiei de transport si in conformitate cu rezervarea. \n
+Plati intarziate, banca incorecta, detalii gresite ale cardului de credit sau de debit, carduri de credit/debit invalide sau fonduri insuficiente sunt pe riscul si in contul dumneavoastra, si nu veti avea dreptul la nicio rambursare a oricarei sume (nerambursabile) platite in avans, cu exceptia cazului in care compania de transport este de acord cu sau permite altceva prin politica sa de (pre)plata sau anulare. \n
+Daca doriti sa revedeti, modificati sau anulati rezervarea calatoriei, va rugam sa mergeti la e-mailul de confirmare si sa urmati instructiunile cuprinse in acesta. Va rugam sa retineti ca vi se poate cere sa platiti pentru anulare in conformitate cu politicile de anulare, neprezentare sau (pre)plata ale companiei de transport sau nu veti avea dreptul la rambursarea nici unei sume (pre)platite. Va recomandam sa cititi cu atentie politicile de anulare, neprezentare si (pre)plata ale furnizorului de cazare inainte de a face rezervarea si sa va amintiti sa faceti la timp platile in conformitate cu cerintele rezervarii relevante. \n
+Departamentul nostru Serviciul Clienti va poate ajuta daca aveti nevoie sa informati Furnizorul de Sejur. AutoTransport nu accepta nicio responsabilitate sau raspundere pentru consecintele produse de sosirea dumneavoastra tarzie sau in legatura cu orice anulare sau incasare de catre compania de transport a taxei pentru neprezentare."
+            android:textSize="18sp"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

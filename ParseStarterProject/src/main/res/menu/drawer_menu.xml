@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profil"></item>
+
+        <item
+            android:id="@+id/bookings"
+            android:icon="@drawable/ic_bus"
+            android:title="Rezervari"></item>
+
+    </group>
+
+    <item android:title="Contact">
+        <menu>
+
+            <item
+                android:id="@+id/help"
+                android:title="Centru de Asistenta"></item>
+
+            <item
+                android:id="@+id/termsAndConditions"
+                android:title="Termeni si Conditii"></item>
+
+            <item
+                android:id="@+id/contact"
+                android:title="Contactati-ne"></item>
+
+        </menu>
+    </item>
+
+
+</menu>

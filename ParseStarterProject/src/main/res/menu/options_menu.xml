@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".OptionsCompleteActivity">
+
+<item android:title="@string/limba"
+        android:id="@+id/language"
+        app:showAsAction="never"
+        android:orderInCategory="100">
+    <menu>
+        <item android:title="@string/romana"
+            android:id="@+id/romanian"
+            app:showAsAction="never"></item>
+        <item android:title="@string/engleza"
+            android:id="@+id/english"
+            app:showAsAction="never"></item>
+    </menu>
+</item>
+
+<item android:title="@string/ajutor"
+        android:id="@+id/help"
+        app:showAsAction="never"
+        android:orderInCategory="200"></item>
+</menu>

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HelpActivity"
+    android:background="#F6F3F3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F6F3F3"
+        android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="186dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ticket"
+        tools:ignore="MissingConstraints" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Buna ziua!"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="Permite-ne sa te ajutam!"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:text="Ai nevoie de ajutor cu rezervarea?"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="20dp"
+        android:text="Plata"
+        android:textSize="20sp"
+        android:textColor="@android:color/holo_blue_dark"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="780dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="10dp"
+        android:layout_weight=".3"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:text="Pot sa platesc in avans?"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            android:text="Unele companii solocita o plata in avans, cunoscuta si sub numele de depozit, inaintea sosirii. Plata in avans poate fi partiala sau totala.
+In cazul unei plati partiale, restul este platit in momentul prezentarii la autocar.
+Pentru unele companii plata in avans nu este necesara, si veti plati suma totala in momentul prezentarii la autocar.
+Este cel mai bine sa verificati politica de plata din confirmare, pentru mai multe detalii."
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="10dp"
+            android:text="Ce metode de plata sunt acceptate?"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginEnd="10dp"
+            android:text="Cardurile de credit sunt metoda de plata cea mai frecventa pentru companiile prezente in aplicatia AutoTransport si cele mai multe companii folosesc cardul de credit pentru a valida rezervarea."
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginEnd="10dp"
+            android:text="Mi s-a incasat plata. Mai trebuie sa fac ceva?"
+            android:textSize="18sp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginEnd="10dp"
+            android:text="In cele mai multe cazuri, nu mai este nevoie sa mai faceti nimic.
+Asa cum se specifica in politica de plata din confirmarea rezervarii, aceasta este probabil doar o plata partiala sau totala in avans.
+Daca nu exista o politica de plata in avans, atunci este posibil ca proprietatea sa fi incasat o plata-test de pe cardul dumneavoastra. Aceasta este o blocare temporara, folosita pentru a va garanta rezervarea si care va fi returnata.
+Daca inca mai credeti ca plata este neprevazuta, ne puteti contacta pentru a va ajuta. Noi putem contacta proprietatea in numele dumneavoastra numai dupa ce ne transmiteti o dovada a incasarii.
+"
+            android:textSize="16sp"
+            />
+
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1230dp"
+            android:layout_marginStart="20dp"
+            android:text="Anulari"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="660dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="1270dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight=".3"
+            android:background="#FFFFFF">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:text="Pot sa-mi anulez rezervarea?"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="10dp"
+                android:text="Da! Toate taxele de anulare sunt fixate de proprietate si specificate in politica de anulare. Veti plati proprietatii orice cost suplimentar."
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginEnd="10dp"
+                android:text="Daca am nevoie sa anulez rezervarea, voi plati vreo taxa de anulare?"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="190dp"
+                android:layout_marginEnd="10dp"
+                android:text="Daca aveti o rezervare cu anulare gratuita, nu veti plati o taxa de anulare.
+Daca rezervarea nu mai poate fi anulata gratuit sau are un pret nerambursabil, atunci va trebui sa platiti o taxa de anulare.
+Toate taxele de anulare sunt fixate de companie. Veti plati companiei orice cost suplimentar."
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginEnd="10dp"
+                android:text="Cum stiu daca rezervarea mea a fost anulata?"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginEnd="10dp"
+                android:text="Dupa ce anulati o rezervare prin noi, ar trebui sa primiti un e-mail de confirmarea a anularii. Verificati-va inbox-ul si fisierele de spam/junk.
+Daca nu primiti e-mail in mai putin de 24 de ore, va rugam contactati proprietatea pentru a confirma ca s-a primit anularea dumneavoastra."
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="560dp"
+                android:layout_marginEnd="10dp"
+                android:text="Unde pot gasi politica de anulare a companiei la care am facut rezervarea?"
+                android:textSize="18sp"
+                android:textColor="@android:color/holo_blue_dark"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="610dp"
+                android:layout_marginEnd="10dp"
+                android:text="Puteti gasi aceasta informatie in e-mailul de confirmare."
+                android:textSize="16sp"
+                />
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  Vezi toate intrebarile frecvente  "
+            android:layout_marginTop="1970dp"
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="#89D0F5"
+            />
+
+
+   </RelativeLayout>
+
+</ScrollView>

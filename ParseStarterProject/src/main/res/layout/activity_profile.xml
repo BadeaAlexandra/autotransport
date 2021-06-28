@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity"
+    android:background="#F6F3F3">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="186dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/ticket"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/profileFirstNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:text="Nume: Badea"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/profileLastNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:text="Prenume: Alexandra"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/profileBirthdateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:text="Data nasterii: 12/03/2000"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/profileUsernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="350dp"
+        android:ems="10"
+        android:text="Nume utilizator: alexandra"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/profileEmailTextView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:text="E-mail: badea.alexandra.1997@gmail.com"
+        android:textColor="#000000"
+        android:textSize="16dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:text="  Editeaza profilul  "
+        android:background="#89D0F5" />
+
+</RelativeLayout>

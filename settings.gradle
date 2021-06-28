@@ -1,0 +1,1 @@
+include ':ParseStarterProject', ':mysql-connector-java-8.0.13', ':mysql-connector-java-5.1.10-bin'

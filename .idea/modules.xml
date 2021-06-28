@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Aplicatie licenta.iml" filepath="$PROJECT_DIR$/Aplicatie licenta.iml" group="Aplicatie licenta" />
+      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" group="Aplicatie licenta/ParseStarterProject" />
+      <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-5.1.10-bin/mysql-connector-java-5.1.10-bin.iml" filepath="$PROJECT_DIR$/mysql-connector-java-5.1.10-bin/mysql-connector-java-5.1.10-bin.iml" group="Aplicatie licenta/mysql-connector-java-5.1.10-bin" />
+      <module fileurl="file://$PROJECT_DIR$/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.iml" filepath="$PROJECT_DIR$/mysql-connector-java-8.0.13/mysql-connector-java-8.0.13.iml" group="Aplicatie licenta/mysql-connector-java-8.0.13" />
+      <module fileurl="file://$PROJECT_DIR$/parseproject.iml" filepath="$PROJECT_DIR$/parseproject.iml" />
+    </modules>
+  </component>
+</project>

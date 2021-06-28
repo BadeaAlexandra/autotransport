@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailActivity"
+    android:background="#F6F3F3">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="186dp"
+        android:layout_height="103dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ticket"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/congratulationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Achizitia este finalizata! "
+        android:textSize="23sp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/confirmationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Vei primi un e-mail de confirmare la adresa completata!\nTe rugam sa te prezinti in punctul de plecare cu cel putin 10 de minute inainte de inceperea cursei. De asemenea, nu uita sa prezentati soferului codul biletului din e-mail-ul de confirmare primit."
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/continueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_centerHorizontal="true"
+        android:text="   Intoarce-te la meniul principal   "
+        android:background="@drawable/button_background_small"/>
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="520dp"
+        android:layout_centerHorizontal="true"
+        android:text="   Iesi din aplicatie   "
+        android:background="@drawable/button_background_small"/>
+
+
+</RelativeLayout>
